@@ -1,0 +1,39 @@
+********************************************************************************
+TMS320C6x Hex Converter                                                   v7.4.8
+********************************************************************************
+
+INPUT FILE NAME: <C:/gigous2_bkuo/repo/gigous_kuo_lab7/gigous_kuo_lab7Project\debug\gigous_kuo_lab7.out>
+OUTPUT FORMAT:   Binary
+
+PHYSICAL MEMORY PARAMETERS
+   Default data width   :   8
+   Default memory width :   8
+   Default output width :   8
+
+BOOT LOADER PARAMETERS
+   Table Address: 0x0000, PAGE 0
+   Entry Point  : 0x11825f40
+
+
+OUTPUT TRANSLATION MAP
+--------------------------------------------------------------------------------
+00000000..0003ffff  Page=0  Memory Width=8  ROM Width=8  "SPIFLASH"
+--------------------------------------------------------------------------------
+   OUTPUT FILES: C:/gigous2_bkuo/repo/gigous_kuo_lab7/gigous_kuo_lab7Project\..\gigous_kuo_lab7.bin [b0..b7]
+
+   CONTENTS: 00000000..0001c057   BOOT TABLE
+                         .hwi_vec : btad=00000000  dest=11826c00 size=00000200
+                            .bios : btad=0000020c  dest=118195a0 size=00004500
+                           .pinit : btad=00004714  dest=11826120 size=0000000c
+                            .text : btad=00004728  dest=11800000 size=00013960
+                           .cinit : btad=00018090  dest=1181daa0 size=000020ec
+                          .switch : btad=0001a184  dest=11823760 size=0000006c
+                         .gblinit : btad=0001a1f8  dest=11826b58 size=00000064
+                         .sysinit : btad=0001a264  dest=11825c20 size=00000500
+                         .trcdata : btad=0001a76c  dest=1182612c size=0000000c
+                       .rtdx_text : btad=0001a780  dest=11821ba0 size=00000fc0
+                           .const : btad=0001b748  dest=11825618 size=000005fd
+                            .args : btad=0001bd50  dest=11821b9c size=00000004
+                           .trace : btad=0001bd5c  dest=11826e00 size=00000200
+                             .log : btad=0001bf64  dest=118237cc size=00000030
+                             .sts : btad=0001bf9c  dest=118275c4 size=000000b0

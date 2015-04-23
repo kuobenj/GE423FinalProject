@@ -1,0 +1,39 @@
+********************************************************************************
+TMS320C6x Hex Converter                                                   v7.4.8
+********************************************************************************
+
+INPUT FILE NAME: <C:/gigous2_bkuo/repo/first/firstProject\debug\first.out>
+OUTPUT FORMAT:   Binary
+
+PHYSICAL MEMORY PARAMETERS
+   Default data width   :   8
+   Default memory width :   8
+   Default output width :   8
+
+BOOT LOADER PARAMETERS
+   Table Address: 0x0000, PAGE 0
+   Entry Point  : 0x11821120
+
+
+OUTPUT TRANSLATION MAP
+--------------------------------------------------------------------------------
+00000000..0003ffff  Page=0  Memory Width=8  ROM Width=8  "SPIFLASH"
+--------------------------------------------------------------------------------
+   OUTPUT FILES: C:/gigous2_bkuo/repo/first/firstProject\..\first.bin [b0..b7]
+
+   CONTENTS: 00000000..00017d07   BOOT TABLE
+                         .hwi_vec : btad=00000000  dest=11822000 size=00000200
+                            .bios : btad=0000020c  dest=11815380 size=00004500
+                           .pinit : btad=00004714  dest=1181d814 size=0000000c
+                            .text : btad=00004728  dest=11800000 size=0000f920
+                           .cinit : btad=00014050  dest=1181b880 size=00001f94
+                          .switch : btad=00015fec  dest=11821fa8 size=00000044
+                         .gblinit : btad=00016038  dest=1180f920 size=00000058
+                         .sysinit : btad=00016098  dest=11820e00 size=00000500
+                         .trcdata : btad=000165a0  dest=118228c0 size=0000000c
+                       .rtdx_text : btad=000165b4  dest=1181d820 size=00000fc0
+                           .const : btad=0001757c  dest=118217f8 size=0000048c
+                            .args : btad=00017a10  dest=11820dfc size=00000004
+                           .trace : btad=00017a1c  dest=11821c84 size=00000200
+                             .log : btad=00017c24  dest=11822880 size=00000030
+                             .sts : btad=00017c5c  dest=11822764 size=000000a0
